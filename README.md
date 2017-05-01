@@ -1,4 +1,4 @@
-#brute_telnet.c - Telnet bruteforce, for penetration test.
+# brute_telnet.c - Telnet bruteforce, for penetration test
 
 This is a tool for penetration test the telnet remote login.
 This tool use brute force tecnique, for crack the remote authentication service
@@ -11,6 +11,7 @@ bar@kali$ gcc -o brute_telnet brute_telnet.c -pthread
 
 
 ### USE:
+```sh
 bar@kali:~$ ./brute_telnet
 [+] Login Bruteforce telnet server, for penetration test...
 
@@ -28,5 +29,5 @@ Examples:
 	./brute_telnet 192.168.1.1 23 user.txt wordlist.txt 30 -v
 
 bar@kali:~$
-
+```
 
