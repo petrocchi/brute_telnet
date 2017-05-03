@@ -118,7 +118,7 @@ int main(int argc , char *argv[]) {
 		verbose = 1;
 	}
 
-	for(i=0; i<NUM_T; i++) {			// inizialized forked variable
+	for(i=0; i<NUM_T; i++) {			// inizialized structure of threads
 		if((tdata[i].taddr = (struct sockaddr_in *)malloc(sizeof(struct sockaddr_in))) == NULL) {
 			perror("malloc");
 			exit(1);
