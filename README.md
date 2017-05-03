@@ -7,10 +7,12 @@ THIS TOOL IS FOR LEGAL PURPOSES ONLY!
 
 
 
-### CONFIGURE:
+### COMPILE:
 
-For compile you need to linker de pthread library. bar@kali$ gcc -o brute_telnet brute_telnet.c -pthread
-
+For compile you need to linker de pthread library.
+```sh
+bar@kali$ gcc -o brute_telnet brute_telnet.c -pthread
+```
 
 
 
