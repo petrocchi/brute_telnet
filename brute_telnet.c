@@ -153,7 +153,7 @@ int main(int argc , char *argv[]) {
 	}
 
 	if(!(fd_pass = fopen(argv[4], "r"))) {
-		perror(argv[3]);
+		perror(argv[4]);
 		return(1);
 	}
 
